@@ -3,13 +3,8 @@
  */
 public class Petla {
     public static void main(String[] args) {
-        for (int i = -10; i <= 40; i++) {
-            if (i % 2 == 0) {
-                continue;
-            }
+        for (int i = -9; i <= 40; i += 2) {
             System.out.println(i);
-
         }
-
     }
 }
